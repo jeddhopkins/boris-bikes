@@ -1,11 +1,9 @@
+require_relative 'bikes'
+
 class DockingStation
 
-  def release_bike(status)
-  #   if status == "working"
-  #     true
-  #   else
-  #     false
-  #   end
+  def release_bike
+    Bikes.new
   end
 
 end
